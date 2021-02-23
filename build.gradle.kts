@@ -22,7 +22,7 @@ configurations["implementation"].extendsFrom(shadowImplementation)
 dependencies {
     shadowImplementation(kotlin("stdlib"))
     implementation("com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT")
-    shadowImplementation("com.github.sya-ri:EasySpigotAPI:1.3.0") {
+    shadowImplementation("com.github.sya-ri:EasySpigotAPI:1.3.4") {
         exclude(group = "org.spigotmc", module = "spigot-api")
     }
 }
